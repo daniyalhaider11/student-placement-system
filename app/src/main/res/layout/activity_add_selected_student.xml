@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".AddSelectedStudent">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Selected Student"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="70dp" />
+
+    <EditText
+        android:id="@+id/studentskill"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Student Skill"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:id="@+id/studentnumber"
+        android:layout_width="301dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter Student Number"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:id="@+id/studentaddress"
+        android:layout_width="302dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Student Address"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_margin="20dp" />
+
+    <Spinner
+        android:id="@+id/fetchstudent"
+        android:layout_width="309dp"
+        android:layout_height="27dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/rounded_corners"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/btnaddselectstu"
+        android:text="Add Selected Student"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addcompanyjobdesc"
+        android:background="@drawable/rounded_corners"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

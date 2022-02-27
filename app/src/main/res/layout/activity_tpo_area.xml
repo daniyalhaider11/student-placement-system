@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    tools:context=".TPOArea">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:fontFamily="sans-serif"
+        android:text="TPO Home"
+        android:textColor="@color/black"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/btnaddcompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners"
+        android:padding="20dp"
+        android:text="Add Company"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/btnpastpaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners"
+        android:padding="20dp"
+        android:text="Add Previous Papers"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnselectedstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners"
+        android:padding="20dp"
+        android:text="Add Selected Students"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

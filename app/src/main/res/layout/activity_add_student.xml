@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".AddStudent">
+
+    <TextView
+        android:id="@+id/im"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="ADD STUDENT CREDENTIALS"
+        android:textSize="23dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/std_branch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/et_style"
+        android:layout_below="@+id/std_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="22dp"
+        android:hint="Enter Your Branch"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="15sp"/>
+
+
+    <EditText
+        android:id="@+id/std_per"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/std_branch"
+        android:textColor="@color/black"
+        android:background="@drawable/et_style"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Your Percentage"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/std_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/std_per"
+        android:textColor="@color/black"
+        android:background="@drawable/et_style"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Your Email "
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/std_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/std_email"
+        android:textColor="@color/black"
+        android:background="@drawable/et_style"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Your Password "
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/add_std"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/std_password"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corners"
+        android:text="ADD STUDENT"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

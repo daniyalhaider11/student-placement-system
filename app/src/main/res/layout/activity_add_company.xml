@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".AddCompany">
+
+    <TextView
+        android:id="@+id/im"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Add Company"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/addcomapanyname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:background="@drawable/et_style"
+        android:layout_below="@+id/im"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="22dp"
+        android:hint="Enter Company Name"
+        android:textColorHint="@color/black"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/addcompanydetails"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addcomapanyname"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/et_style"
+        android:hint="Enter Company Detail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/addcompanyjobdesc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/addcompanydetails"
+        android:textColor="@color/black"
+        android:background="@drawable/et_style"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Company Job Description"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/add_company"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addcompanyjobdesc"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Add Company"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

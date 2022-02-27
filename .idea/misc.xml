@@ -4,9 +4,22 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/drawable/button.xml" value="0.26851851851851855" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_add_company.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_add_past_papers.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_add_selected_student.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_add_student.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_add_tpo.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_admin_area.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_admin_login.xml" value="0.16210739614994935" />
         <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_login_area.xml" value="0.16210739614994935" />
         <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_splash_screen.xml" value="0.14994934143870314" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_student_area.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_student_login.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_tpo_area.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_tpo_login.xml" value="0.16210739614994935" />
+        <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/layout/activity_tpologin.xml" value="0.16210739614994935" />
         <entry key="..\:/Project/Android Apps/student-placement-system/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26851851851851855" />
       </map>
     </option>

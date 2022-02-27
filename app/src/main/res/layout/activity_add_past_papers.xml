@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:background="@drawable/bg"
+    tools:context=".AddPastPapers">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Past Papers"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_margin="70dp" />
+
+    <EditText
+        android:id="@+id/pastpapername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Past Paper Name"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:id="@+id/pastpaperyear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Past Paper Year"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="170dp"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/btnselectfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners"
+        android:text="Select File"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/btnuploadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_corners"
+        android:text="Uplaod File"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

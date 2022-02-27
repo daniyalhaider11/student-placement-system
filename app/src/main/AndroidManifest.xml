@@ -10,7 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentPlacementSystem">
         <activity
-            android:name=".Login"
+            android:name=".AddPastPapers"
+            android:exported="false" />
+        <activity
+            android:name=".AddCompany"
+            android:exported="false" />
+        <activity
+            android:name=".AddSelectedStudent"
+            android:exported="false" />
+        <activity
+            android:name=".AddStudent"
+            android:exported="false" />
+        <activity
+            android:name=".AddTPO"
+            android:exported="false" />
+        <activity
+            android:name=".AdminArea"
+            android:exported="false" />
+        <activity
+            android:name=".TPOArea"
+            android:exported="false" />
+        <activity
+            android:name=".TPOLogin"
+            android:exported="false" />
+        <activity
+            android:name=".StudentArea"
+            android:exported="false" />
+        <activity
+            android:name=".StudentLogin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".LoginArea"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
