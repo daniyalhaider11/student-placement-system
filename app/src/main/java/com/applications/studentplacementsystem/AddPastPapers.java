@@ -29,7 +29,7 @@ public class AddPastPapers extends AppCompatActivity {
 
     Uri uri;
 
-    public static final String PDF_UPLOAD_HTTP_URL = "https://spsys.000webhostapp.com/uploadpdffile.php";
+    public static final String PDF_UPLOAD_HTTP_URL = "#";
 
     public int PDF_REQ_CODE = 1;
 

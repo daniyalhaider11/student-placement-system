@@ -33,8 +33,8 @@ public class AddSelectedStudent extends AppCompatActivity {
     Button addstudecord;
     ArrayList<String> studlist =new ArrayList<>();
     ArrayAdapter<String> adapter;
-    String fetch_url = "https://spsys.000webhostapp.com/fetchstudent.php";
-    String insertstu_url = "https://spsys.000webhostapp.com/addselectedstudent.php";
+    String fetch_url = "#";
+    String insertstu_url = "#";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

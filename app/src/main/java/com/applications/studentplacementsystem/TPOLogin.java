@@ -25,7 +25,7 @@ public class TPOLogin extends AppCompatActivity {
     EditText tpousername, tpopassword;
     Button tpologin;
 
-    final String tpologin_url = "https://beltexco.000webhostapp.com/tlogin.php";
+    final String tpologin_url = "#";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

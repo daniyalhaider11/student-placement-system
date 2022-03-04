@@ -24,7 +24,7 @@ public class AdminLogin extends AppCompatActivity {
 
     EditText username,password;
     Button admin_login;
-    String Login_url = "https://beltexco.000webhostapp.com/adminlogin.php";
+    String Login_url = "#";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

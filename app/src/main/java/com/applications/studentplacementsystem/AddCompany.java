@@ -24,7 +24,7 @@ public class AddCompany extends AppCompatActivity {
 
     EditText Addcompname, Addcompdetails, Addcompjobdesc;
     Button add_company;
-    final String addcompany_url = "https://spsys.000webhostapp.com/addcompany.php";
+    final String addcompany_url = "#";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

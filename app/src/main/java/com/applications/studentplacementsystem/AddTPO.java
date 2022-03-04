@@ -24,7 +24,7 @@ public class AddTPO extends AppCompatActivity {
 
     EditText tpo_name,tpo_email,tpo_password;
     Button add_tpo;
-    String addtpo_url = "https://beltexco.000webhostapp.com/tpologin.php";
+    String addtpo_url = "#";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

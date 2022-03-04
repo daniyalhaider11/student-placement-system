@@ -24,7 +24,7 @@ public class AddStudent extends AppCompatActivity {
 
     EditText std_name,std_branch,std_per,std_email,std_password;
     Button add_std;
-    String addstu_url = "https://beltexco.000webhostapp.com/stdlogin.php";
+    String addstu_url = "#";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

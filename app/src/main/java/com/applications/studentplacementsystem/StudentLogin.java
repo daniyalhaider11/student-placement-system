@@ -24,7 +24,7 @@ public class StudentLogin extends AppCompatActivity {
 
     EditText stdemail,stdpassword;
     Button stdlogin;
-    final String Stu_loginUrl = "https://beltexco.000webhostapp.com/Slogin.php";
+    final String Stu_loginUrl = "#";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
